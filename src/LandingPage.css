@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.container{
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+
+.chooseText{
+    display: flex;
+    background-color: #F5F5F5;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-size: 40pt;
+    justify-content: center;
+    align-items: center;
+ }
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageSize{
+    padding-left: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.pageLogo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
