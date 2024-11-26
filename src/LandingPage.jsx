@@ -1,7 +1,10 @@
 import './LandingPage.css'
-
+import {useNavigate} from "react-router-dom";
 
 function LandingPage() {
+
+    const navigate = useNavigate();
+
     return(
         <>
             <div className="container">
@@ -10,9 +13,9 @@ function LandingPage() {
                 </div>
                 <div className="row">
                     <div className="imageContainer">
-                        <img className="imageSize" src="/images/persona3.png" alt="Persona 3 Style"/>
-                        <img className="imageSize" src="/images/persona3.png" alt="Persona 3 Style"/>
-                        <img className="imageSize" src="/images/persona3.png" alt="Persona 3 Style"/>
+                        <img className="imageSize" src="/images/persona3.png" alt="Persona 3 Style" onClick={() => navigate('/portfolio')} />
+                        <img className="imageSize" src="/images/persona3.png" alt="Persona 3 Style"  onClick={() => navigate('/portfolio')}/>
+                        <img className="imageSize" src="/images/persona3.png" alt="Persona 3 Style"  onClick={() => navigate('/portfolio')}/>
                     </div>
                 </div>
             </div>
